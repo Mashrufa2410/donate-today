@@ -1,0 +1,43 @@
+header {
+    align-items: center;
+    background-image: url(/donate-today-main/images/donation13.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh; /* Adjusted height */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff; /* Text color for better visibility */
+}
+
+.header-stuff {
+    margin: auto;
+    max-width: 600px; /* Adjust as needed */
+}
+
+.btn-primary {
+    color: #ffffff;
+    height: 64px; /* Added unit (px) */
+    border-radius: 5px;
+    background-color: #FF5959;
+    font-weight: 700;
+    border: 0;
+    font-size: 20px;
+    padding: 12px 20px;
+}
+
+.banner-title {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    margin: 0; /* Remove margin to center */
+}
+
+.banner-sub-title {
+    font-size: 20px; /* Adjust font size */
+    margin: 20px 0; /* Add margin for separation */
+}
+
+.banner-button {
+    margin-top: 20px; /* Adjust margin */
+}
