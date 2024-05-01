@@ -50,18 +50,28 @@ header {
 .center-div{
     text-align: center;
 }
-.donate-today, .our-donate-plan{
+.donate-today, .our-donate-plan, .updates{
     margin: 200px 0;
 }
-.section-title{
+.section-title, .footer-title{
     font-family: "Open Sans", sans-serif;
     font-weight: bolder;
     font-size: 60px;
     margin: 0;   
 }
-.section-sub-title{
+.footer-title{
+    color: red;
+    font-size: 40px;
+    text-align: center;
+
+}
+.section-sub-title, .footer-sub-title{
     font-size: 20px; /* Adjust font size */
     margin: 20px 0; /* Add margin for separation */
+}
+.footer-sub-title{
+    text-align: center;
+    color: white;
 }
 .blocks{
     text-align: center;
@@ -128,4 +138,61 @@ text-align: center;
 }
 .plan-3{
     background-color: #916BBF;
+}
+.donation-blocks{
+display: flex;
+margin: 0px 200px;
+width: 1700px;
+margin-top: 200px;
+}
+.donation-block{
+    width: 900px;
+}
+/* Form Styles */
+.form-container {
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex; /* Add flex display */
+    flex-direction: column; /* Set flex direction to column */
+    align-items: center; /* Align items horizontally at the center */
+}
+
+.form-container form { /* Make the form take the full width of its container */
+background-color: #98caff96;
+width: 40%;
+height: 200px;
+}
+
+.form-container input[type="email"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 75px;
+    width: 60%; /* Make the input take the full width of its container */
+}
+
+.form-container input[type="submit"] {
+    padding: 10px 20px; /* Increase padding for better button appearance */
+    border: none;
+    border-radius: 5px;
+    background-color: #4fa4ff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    width: 15%; /* Make the button take the full width of its container */
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+footer{
+    background-color: black;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
