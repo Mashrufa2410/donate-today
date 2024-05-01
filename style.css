@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 header {
     align-items: center;
     background-image: url(/donate-today-main/images/donation13.jpg);
@@ -24,12 +28,13 @@ header {
     border: 0;
     font-size: 20px;
     padding: 12px 20px;
+    margin-top: 20px;
 }
 
 .banner-title {
     font-family: "Open Sans", sans-serif;
-    font-weight: bold;
-    font-size: 55px;
+    font-weight: 900;
+    font-size: 50px;
     margin: 0; /* Remove margin to center */
 }
 
@@ -40,4 +45,87 @@ header {
 
 .banner-button {
     margin-top: 20px; /* Adjust margin */
+}
+/* frist section */
+.center-div{
+    text-align: center;
+}
+.donate-today, .our-donate-plan{
+    margin: 200px 0;
+}
+.section-title{
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 60px;
+    margin: 0;   
+}
+.section-sub-title{
+    font-size: 20px; /* Adjust font size */
+    margin: 20px 0; /* Add margin for separation */
+}
+.blocks{
+    text-align: center;
+    max-width: 600px;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 550px;
+    gap: 20px;
+    list-style: none;
+}
+.reguler-block{
+    padding: 50px 40px;
+    color: #707070;
+    background-color: #fafafa;
+    border: #fafafa;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 25px;
+}
+.differnt-block{
+    color: #FF5959;
+    background-color: #FFEEEE;
+    border: 1px solid #FF5959;
+}
+
+.amount{
+     text-align: center;
+     margin-top: 40px;
+     color: #dadada;
+}
+hr{
+    width: 800px;
+    margin: auto;
+    margin-top: 10px;
+}
+.end-1{
+text-align: center;
+}
+
+.block-title{
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    margin: 0; 
+    margin-top: 10ps;
+}
+.plan-blocks{
+    display: flex;
+    margin: auto;
+    width: 1000px;
+    margin-top: 50px;
+    gap: 25px;
+}
+.plan{
+    width: 70%;
+    height: 250px;
+    padding: 40px;
+    border-radius: 5px;
+}
+.plan-1{
+    background-color: #EEF5FF;
+}
+.plan-2{
+    background-color: #FED9ED;
+}
+.plan-3{
+    background-color: #916BBF;
 }
